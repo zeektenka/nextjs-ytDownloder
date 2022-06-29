@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  max-width: 700px;
+  width: 100%;
+  border: 4px red solid;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form span {
+  width: 100%;
+}
+
+.d-btn {
+  padding: 6px 18px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.d-btn:hover {
+  cursor: pointer;
+}
+.input {
+  padding: 6px 18px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
